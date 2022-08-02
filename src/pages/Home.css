@@ -1,0 +1,53 @@
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    position: relative;
+}
+
+
+
+
+.text-zone{
+    position: absolute;
+}
+.text-zone > h1{
+    font-size: 5.5rem;
+    font-weight: bold;
+   
+}
+.text-zone > h1 > span{
+    position: relative;
+    display: inline-block;
+    
+}
+.text-zone > h1 > span:hover{
+color:#f50057 !important;
+}
+.text-zone > p{
+    font-size: 1.2rem;
+    color: #666565;
+    padding-top: 10px;
+}
+@media(max-width:400px){
+    .text-zone > h1{
+        font-size: 3rem; 
+    }
+}
+@media(min-width:401px) and (max-width:450px){
+    .text-zone > h1{
+        font-size: 3.5rem; 
+    }
+}
+@media(min-width:451px) and (max-width:600px){
+    .text-zone > h1{
+        font-size: 4rem; 
+    }
+}
+@media(min-width:601px) and (max-width:900px){
+    .text-zone > h1{
+        font-size: 4.5rem; 
+    }
+}
+
+

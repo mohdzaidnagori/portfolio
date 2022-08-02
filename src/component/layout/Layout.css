@@ -1,3 +1,29 @@
-.layout{
-    padding-top: 1000px;
+/* .layout{
+    position: absolute;
+    top: 1000px;
 }
+@media (max-width:1224px){
+    .layout{
+        top: 1000px;
+    }
+    }
+  @media (max-width:1024px){
+    .layout{
+        top: 1000px;
+    }
+  }
+  @media (max-width:900px){
+    .layout{
+        top: 700px;
+    }
+  }
+  @media (max-width:600px){
+    .layout{
+        top: 600px;
+    }
+  }
+  @media (max-width:450px){
+    .layout{
+        top: 400px;
+    }
+  } */

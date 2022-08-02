@@ -1,5 +1,4 @@
 .spline-wrapper{
-    position: relative;
     background-color: red;
     height: 100%;
     width: 100%;
@@ -12,15 +11,24 @@
 }
 
 
-
+@media (max-width:1224px){
+  .splinecrm-3d{
+    transform:scale(0.7) translateX(10px) translateY(-100px);
+  }
+}
 @media (max-width:1024px){
     .splinecrm-3d{
-      transform:scale(0.8) translateX(100px) translateY(-100px);
+      transform:scale(0.7) translateX(100px) translateY(-100px);
     }
 }
-@media (max-width:800px){
+@media (max-width:900px){
+  .splinecrm-3d{
+    transform:scale(0.6) translateX(250px) translateY(-200px);
+  }
+}
+@media (max-width:700px){
     .splinecrm-3d{
-      transform:scale(0.7) translateX(260px) translateY(-200px);
+      transform:scale(0.55) translateX(390px) translateY(-200px);
     }
 }
 @media (max-width:600px){
@@ -28,9 +36,10 @@
       transform:scale(0.5) translateX(600px) translateY(-400px);
     }
 }
-@media (max-width:375px){
+@media (max-width:450px){
     .splinecrm-3d{
-      transform:scale(0.4) translateX(900px) translateY(-800px);
+    
+      transform:scale(0.35) translateX(1100px) translateY(-800px);
     }
 }
 
